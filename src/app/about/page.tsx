@@ -7,7 +7,7 @@ export const metadata: Metadata = {
 
 export default function About() {
   return (
-    <div className="min-h-screen hero">
+    <div className="min-h-screen prose hero">
       <div className="text-center hero-content">
         <div className="max-w-md">
           <h1 className="text-5xl font-bold">About Us</h1>

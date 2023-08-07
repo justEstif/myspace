@@ -18,7 +18,7 @@ export default function RootLayout({
       <html lang="en">
         <body className="container px-4 mx-auto">
           <NavMenu />
-          {children}
+          <div className="px-6">{children}</div>
         </body>
       </html>
     </AuthProvider>
